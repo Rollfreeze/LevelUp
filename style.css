@@ -1,0 +1,34 @@
+*,
+*::after,
+*::before {
+    box-sizing: border-box;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    margin: 0;
+}
+
+body {
+    margin: 0;
+}
+
+.header {
+    position: relative;
+}
+
+.center-container {
+    max-width: 1440px;
+    margin: 0 auto;
+}
+
+#promo-video {
+    position: absolute;
+    z-index: 1;
+
+    max-width: 2100px;
+    height: 900px;
+}
